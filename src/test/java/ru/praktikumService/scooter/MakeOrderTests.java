@@ -12,7 +12,7 @@ import org.openqa.selenium.Cookie;
 public class MakeOrderTests extends AbstractUiTest {
 
     @Test
-    public void MakeOrderFromBasePageTests() {
+    public void makeOrderFromBasePageTests() {
         boolean actual;
 
         driver.get(BasePage.URL);
