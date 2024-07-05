@@ -35,7 +35,7 @@ public class FaqQuestionsTests extends AbstractUiTest {
     }
 
     @Test
-    public void test() {
+    public void getTextFaqQuestionsTest() {
         String actualResult;
         BasePage basePage = new BasePage(driver);
         //Получаем текст ответа на вопрос с главной страницы
